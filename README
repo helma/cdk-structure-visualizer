@@ -1,0 +1,4 @@
+== CDK Structure Visualizer
+
+A Ruby on Rails webservice to display 2D structures of chemicals with optional highlighting of substructures
+
