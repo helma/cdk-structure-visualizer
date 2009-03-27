@@ -1,8 +1,8 @@
-namespace :rchem do
+namespace :visualizer do
 
-  desc "Install rchem plugin (compile java)"
+  desc "Compile cdk visualizer"
   task :compile do
-    sh "cd vendor/plugins/rails-chemistry/lib/java; make"
+    sh "cd lib/java; make"
   end
 
 end
