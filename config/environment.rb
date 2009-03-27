@@ -8,6 +8,7 @@ require File.join(File.dirname(__FILE__), 'boot')
 require File.join(File.dirname(__FILE__), 'java')
 
 Rails::Initializer.run do |config|
+	config.action_controller.relative_url_root = "/cdk-structure-visualizer" 
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers
   # -- all .rb files in that directory are automatically loaded.
